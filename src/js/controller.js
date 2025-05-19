@@ -133,6 +133,10 @@ const controllUploadRecipe = async function (data) {
   }
 };
 
+const newFeature = function () {
+  console.log('New Feature');
+};
+
 const init = function () {
   // Handle Events
   recipeView.addHandlerRender(controllRecipe);
@@ -146,6 +150,8 @@ const init = function () {
   paginationView.addPageHandler(controllPagination);
 
   uploadView.addHandlerUpload(controllUploadRecipe);
+
+  newFeature();
 };
 
 // initialize the app
