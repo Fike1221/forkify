@@ -1,0 +1,21 @@
+{
+  "name": "forkify",
+  "version": "1.0.0",
+  "description": "Recipe Application",
+  "default": "index.html",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html --dist-dir ./dist"
+  },
+  "author": "Fikadu Gebremedhin",
+  "license": "ISC",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.14.4",
+    "parcel": "^2.14.4"
+  },
+  "dependencies": {
+    "core-js": "^3.42.0",
+    "fraction.js": "^5.2.2",
+    "regenerator-runtime": "^0.14.1"
+  }
+}
